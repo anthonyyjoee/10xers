@@ -8,7 +8,7 @@ const Header = ({ collection, tokenOwned, navigation }) => {
         style={styles.backButton}
         onPress={() => navigation.goBack()}
       >
-        <Text style={{ fontSize: 18 }}>Back</Text>
+        <Text style={{ fontSize: 18, color: "black" }}>Back</Text>
       </TouchableOpacity>
       <View style={{ width: '100%', height: '80%' }}>
         <ImageBackground source={{ uri: collection.banner_image_url }} resizeMode="cover" style={styles.imageBackground}>
